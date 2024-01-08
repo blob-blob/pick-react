@@ -1,11 +1,6 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import DefaultLayout from '../layouts/default';
-import reactLogo from '../assets/react.svg';
-import viteLogo from '../../public/vite.svg';
 
 function Home() {
-  const [count, setCount] = useState(0);
   return (
     <DefaultLayout>
       <h1>Home</h1>
